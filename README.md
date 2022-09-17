@@ -1,6 +1,11 @@
 ## 说明
 本项目主要用于hub.docker.com镜像制作（efak官方不提供docker镜像，因此自己做一个）
 
+## 镜像制作
+```shell script
+docker build -t seawenc/efak:3.0.1 .
+docker push seawenc/efak:3.0.1
+```
 
 ## 用法：
 ```
