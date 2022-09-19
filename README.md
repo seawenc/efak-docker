@@ -12,7 +12,7 @@ docker push seawenc/efak:3.0.1
 docker run -d -p 8048:8048 \
 --restart=always  --name efak \
 -v /tmp/efak/logs:/opt/app/efak/logs \
--v /tmp/efak/efak.properties:/opt/app/efak/system-config.properties \
+-v /tmp/efak/efak.properties:/opt/app/efak/conf/system-config.properties \
 -v /tmp/efak/db:/opt/app/efak/db \
 seawenc/efak:3.0.1 
 ```
